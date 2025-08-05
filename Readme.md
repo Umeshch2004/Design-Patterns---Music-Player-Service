@@ -15,7 +15,7 @@ A comprehensive Java music player service demonstrating **6 core design patterns
 - Interactive Demo**: Console-based demo application
 
 ##  Architecture Overview
-
+Architecture Diagram.png
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    Application Layer                        │
