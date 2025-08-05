@@ -5,14 +5,14 @@ A comprehensive Java music player service demonstrating **6 core design patterns
 
 ## 🌟 Features
 
-- ** Multiple Design Patterns**: Strategy, Singleton, Observer, Adapter, Facade, MVVM
-- ** Multi-Source Support**: Local files, Spotify (mock), TheAudioDB (live API)
-- ** Advanced Playback**: Sequential, Shuffle, Repeat modes with runtime switching
-- ** Reactive Architecture**: MVVM with automatic UI updates
-- ** Thread-Safe**: Concurrent operations with modern Java techniques
-- ** Real API Integration**: Live TheAudioDB API with HTTP requests
-- ** Comprehensive Testing**: Unit, integration, and thread safety tests
-- ** Interactive Demo**: Console-based demo application
+- Multiple Design Patterns**: Strategy, Singleton, Observer, Adapter, Facade, MVVM
+- Multi-Source Support**: Local files, Spotify (mock), TheAudioDB (live API)
+- Advanced Playback**: Sequential, Shuffle, Repeat modes with runtime switching
+- Reactive Architecture**: MVVM with automatic UI updates
+- Thread-Safe**: Concurrent operations with modern Java techniques
+- Real API Integration**: Live TheAudioDB API with HTTP requests
+- Comprehensive Testing**: Unit, integration, and thread safety tests
+- Interactive Demo**: Console-based demo application
 
 ##  Architecture Overview
 
