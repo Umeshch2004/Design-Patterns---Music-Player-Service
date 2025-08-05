@@ -1,25 +1,20 @@
-# 🎵 Java Music Player Service - Design Patterns Implementation
+# Music Player Service - Design Patterns Implementation
 
-[![Java](https://img.shields.io/badge/Java-11+-orange.svg)](https://www.oracle.com/java/)
-[![Gradle](https://img.shields.io/badge/Gradle-7.0+-green.svg)](https://gradle.org/)
-[![JUnit](https://img.shields.io/badge/JUnit-5.9+-blue.svg)](https://junit.org/junit5/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
 
 A comprehensive Java music player service demonstrating **6 core design patterns** working together to create a flexible, extensible, and maintainable music playback system. Perfect for learning design patterns, studying software architecture, or as a foundation for music applications.
 
 ## 🌟 Features
 
-- **🎯 Multiple Design Patterns**: Strategy, Singleton, Observer, Adapter, Facade, MVVM
-- **🎼 Multi-Source Support**: Local files, Spotify (mock), TheAudioDB (live API)
-- **🔀 Advanced Playback**: Sequential, Shuffle, Repeat modes with runtime switching
-- **⚡ Reactive Architecture**: MVVM with automatic UI updates
-- **🧵 Thread-Safe**: Concurrent operations with modern Java techniques
-- **🔍 Real API Integration**: Live TheAudioDB API with HTTP requests
-- **🧪 Comprehensive Testing**: Unit, integration, and thread safety tests
-- **📱 Interactive Demo**: Console-based demo application
+- ** Multiple Design Patterns**: Strategy, Singleton, Observer, Adapter, Facade, MVVM
+- ** Multi-Source Support**: Local files, Spotify (mock), TheAudioDB (live API)
+- ** Advanced Playback**: Sequential, Shuffle, Repeat modes with runtime switching
+- ** Reactive Architecture**: MVVM with automatic UI updates
+- ** Thread-Safe**: Concurrent operations with modern Java techniques
+- ** Real API Integration**: Live TheAudioDB API with HTTP requests
+- ** Comprehensive Testing**: Unit, integration, and thread safety tests
+- ** Interactive Demo**: Console-based demo application
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -143,7 +138,6 @@ viewModel.addObserver(new Observer() {
     public void update(Observable o, Object arg) {
         if (arg instanceof PropertyChangeEvent) {
             PropertyChangeEvent event = (PropertyChangeEvent) arg;
-            // Update UI based on property changes
             updateUI(event.getPropertyName(), event.getNewValue());
         }
     }
@@ -161,10 +155,8 @@ viewModel.shuffleCommand();
 class SmartPlaybackStrategy implements PlaybackStrategy {
     @Override
     public Song getNextSong(List<Song> playlist, int currentIndex) {
-        // Implement your custom algorithm
         return selectBasedOnMoodAnalysis(playlist, currentIndex);
     }
-    // ... other methods
 }
 
 // Use custom strategy
@@ -340,14 +332,10 @@ audio.sample.rate=44100
 - Memory-conscious caching
 - Background processing for heavy operations
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
 ### Development Setup
 ```bash
 # Fork and clone the repository
-git clone https://github.com/yourusername/java-music-player-service.git
+git clone https://github.com/Umeshch2004/music-player-service.git
 
 # Create feature branch
 git checkout -b feature/your-feature-name
@@ -393,8 +381,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Issues and Support
 
-- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/java-music-player-service/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/java-music-player-service/discussions)
+- **Bug Reports**: [GitHub Issues](https://github.com/Umeshch2004/java-music-player-service/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/Umeshch2004/java-music-player-service/discussions)
 - **Questions**: [Stack Overflow](https://stackoverflow.com/questions/tagged/java-music-player)
 
 ## 📈 Roadmap
@@ -415,10 +403,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
-**⭐ If this project helped you learn design patterns, please give it a star! ⭐**
-
-[⬆ Back to top](#-java-music-player-service---design-patterns-implementation)
-
-</div>
